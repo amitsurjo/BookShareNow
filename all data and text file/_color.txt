@@ -1,0 +1,40 @@
+background
+#191919
+
+text
+[#CAC7BD]
+
+hover
+[#b3aea0]
+
+
+ <optgroup label="Non-Fiction">
+                            <option value="Biography & Autobiography">Biography & Autobiography</option>
+                            <option value="History">History</option>
+                            <option value="Politics & Social Sciences">Politics & Social Sciences</option>
+                            <option value="Business & Money">Business & Money</option>
+                            <option value="Health, Fitness & Dieting">Health, Fitness & Dieting</option>
+                            <option value="Self-Help">Self-Help</option>
+                            <option value="Parenting & Relationships">Parenting & Relationships</option>
+                            <option value="Religion & Spirituality">Religion & Spirituality</option>
+                            <option value="Travel">Travel</option>
+                            <option value="Sports & Outdoors">Sports & Outdoors</option>
+                            <option value="Cookbooks, Food & Wine">Cookbooks, Food & Wine</option>
+                            <option value="Crafts, Hobbies & Home">Crafts, Hobbies & Home</option>
+                            <option value="Education & Teaching">Education & Teaching</option>
+                            <option value="Science & Math">Science & Math</option>
+                            <option value="Engineering & Transportation">Engineering & Transportation</option>
+                            <option value="Computers & Technology">Computers & Technology</option>
+                            <option value="Reference">Reference</option>
+                            <option value="Arts & Photography">Arts & Photography</option>
+                            <option value="Humor & Entertainment">Humor & Entertainment</option>
+                        </optgroup>
+                        <optgroup label="Children's Books">
+                            <option value="Picture Books">Picture Books</option>
+                            <option value="Early Readers">Early Readers</option>
+                            <option value="Chapter Books">Chapter Books</option>
+                            <option value="Middle Grade">Middle Grade</option>
+                            <option value="Young Adult">Young Adult</option>
+                            <option value="Activity Books">Activity Books</option>
+                            <option value="Educational & Nonfiction">Educational & Nonfiction</option>
+                        </optgroup>

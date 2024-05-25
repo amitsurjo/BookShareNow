@@ -1,0 +1,37 @@
+CREATE DATABASE user_bookshare;
+USE user_bookshare;
+   CREATE TABLE `users` (
+       `id` INT(11) NOT NULL AUTO_INCREMENT,
+       `name` VARCHAR(50) NOT NULL,
+       `road` VARCHAR(50) NOT NULL,
+       `city` VARCHAR(50) NOT NULL,
+       `district` VARCHAR(50) NOT NULL,
+       `email` VARCHAR(50) NOT NULL,
+       `phone` VARCHAR(15) NOT NULL,
+       `password` VARCHAR(255) NOT NULL,
+       PRIMARY KEY (`id`)
+   );
+
+
+create the books TABLE
+CREATE TABLE books (
+  id INT AUTO_INCREMENT,
+  name VARCHAR(255),
+  author VARCHAR(255),
+  published_year INT,
+  edition VARCHAR(50),
+  owner_name VARCHAR(255),
+  owner_phone VARCHAR(20),
+  location VARCHAR(255),
+  availability BOOLEAN,
+  category VARCHAR(100),
+  created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+  PRIMARY KEY (id)
+);
+
+
+make a card with a header 
+the header will indicate the categories of the book 
+the card will contain the book name and the edition and the year of published and the name of the owner
+
+make is such that it can fetch data from mysql database using php

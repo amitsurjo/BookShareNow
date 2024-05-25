@@ -1,0 +1,24 @@
+-- Insert data into the books table
+INSERT INTO books (name, author, published_year, edition, owner_name, owner_phone, location, availability, category) VALUES
+('To Kill a Mockingbird', 'Harper Lee', 1960, '50th Anniversary Edition', 'John Doe', '1234567890', '123 Main St, Anytown USA', 1, 'Fiction'),
+('1984', 'George Orwell', 1949, 'Signet Classics', 'Jane Smith', '0987654321', '456 Oak Rd, Somewhere City', 1, 'Dystopian'),
+('The Great Gatsby', 'F. Scott Fitzgerald', 1925, 'Scribner Paperback Fiction', 'Bob Johnson', '5555555555', '789 Elm Ave, Elsewhere Town', 0, 'Fiction'),
+('Pride and Prejudice', 'Jane Austen', 1813, 'Penguin Classics', 'Alice Williams', '1111111111', '321 Pine St, Somewhere Else', 1, 'Romance'),
+('The Catcher in the Rye', 'J.D. Salinger', 1951, 'Little, Brown and Company', 'Tom Davis', '2222222222', '654 Maple Rd, Anyplace', 1, 'Fiction'),
+('The Hobbit', 'J.R.R. Tolkien', 1937, 'Ballantine Books', 'Sarah Lee', '3333333333', '987 Oak St, Somewhere', 0, 'Fantasy'),
+('To Kill a Mockingbird', 'Harper Lee', 1960, '50th Anniversary Edition', 'John Doe', '1234567890', '123 Main St, Anytown USA', 1, 'Fiction'),
+('1984', 'George Orwell', 1949, 'Signet Classics', 'Jane Smith', '0987654321', '456 Oak Rd, Somewhere City', 1, 'Dystopian'),
+('The Great Gatsby', 'F. Scott Fitzgerald', 1925, 'Scribner Paperback Fiction', 'Bob Johnson', '5555555555', '789 Elm Ave, Elsewhere Town', 0, 'Fiction'),
+('Pride and Prejudice', 'Jane Austen', 1813, 'Penguin Classics', 'Alice Williams', '1111111111', '321 Pine St, Somewhere Else', 1, 'Romance'),
+('The Catcher in the Rye', 'J.D. Salinger', 1951, 'Little, Brown and Company', 'Tom Davis', '2222222222', '654 Maple Rd, Anyplace', 1, 'Fiction'),
+('The Hobbit', 'J.R.R. Tolkien', 1937, 'Ballantine Books', 'Sarah Lee', '3333333333', '987 Oak St, Somewhere', 0, 'Fantasy'),
+-- Add more data rows as needed, up to 60 in total
+
+-- Insert data into the users table
+INSERT INTO users (name, road, city, district, email, phone, password) VALUES
+('John Doe', '123 Main St', 'Anytown', 'District A', 'john@example.com', '1234567890', 'password123'),
+('Jane Smith', '456 Oak Rd', 'Somewhere City', 'District B', 'jane@example.com', '0987654321', 'password456'),
+('Bob Johnson', '789 Elm Ave', 'Elsewhere Town', 'District C', 'bob@example.com', '5555555555', 'password789'),
+('Alice Williams', '321 Pine St', 'Somewhere Else', 'District D', 'alice@example.com', '1111111111', 'passwordabc'),
+('Tom Davis', '654 Maple Rd', 'Anyplace', 'District E', 'tom@example.com', '2222222222', 'passworddef'),
+('Sarah Lee', '987 Oak St', 'Somewhere', 'District F', 'sarah@example.com', '3333333333', 'passwordghi');

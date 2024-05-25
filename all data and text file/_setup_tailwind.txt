@@ -1,0 +1,31 @@
+set up tailwind for the project
+
+npm install -D tailwindcss
+npx tailwindcss init
+
+
+
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  content: ["./*.{html,js, php}"],
+  theme: {
+    extend: {},
+  },
+  plugins: [],
+}
+
+**input.css**
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+**style.css**
+
+
+npx tailwindcss -i input.css -o style.css --watch
+
+
+
+##note 
+thougt the play CDN is used for the the project Tailwind CLI is needed for full functionality
+in order to do so the input.css is converted to style.css 
